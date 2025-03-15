@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Outfit Suggestion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b3b3b3;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .navbar {
+            background: #d1d1d1;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 10px 15px;
+            background: white;
+            border-radius: 5px;
+        }
+        .login-container {
+            margin-top: 50px;
+            background: #c4c4c4;
+            padding: 30px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+        .input-field {
+            width: 250px;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 20px;
+            background: #e0e0e0;
+            text-align: center;
+        }
+        .submit-btn {
+            padding: 10px 20px;
+            border: none;
+            background: #555;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 20px;
+            margin-top: 15px;
+        }
+        .submit-btn:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#outfit">OUTFIT</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+    <div class="login-container">
+        <h2>LOGIN</h2>
+        <input type="text" class="input-field" placeholder="USERNAME">
+        <br>
+        <input type="password" class="input-field" placeholder="PASSWORD">
+        <br>
+        <button class="submit-btn">SUBMIT</button>
+    </div>
+</body>
+</html>

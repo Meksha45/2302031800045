@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b3b3b3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            background: #b3b3b3;
+            width: 80%;
+            max-width: 900px;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .left-section {
+            flex: 1;
+            padding: 20px;
+        }
+        .left-section h2 {
+            font-style: italic;
+        }
+        .right-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #222;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Stephanie</h1>
+            <p>Personal Stylist</p>
+            <h2>LADIES FASHION</h2>
+            <h3><i>FEEDBACK FORM</i></h3>
+            <p>Tell us about your experience. Your feedback is valuable.</p>
+        </div>
+        <div class="right-section">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email">
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" rows="4" placeholder="Your Feedback"></textarea>
+            <button>SUBMIT FEEDBACK</button>
+        </div>
+    </div>
+</body>
+</html>
